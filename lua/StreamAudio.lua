@@ -16,7 +16,7 @@
 --   Stream:        StreamAudio.play("path/show.mp3")
 --   Stream + save: StreamAudio.play("path/show.mp3", "/Data/show.mp3")
 --
--- Companion video engine: https://github.com/jnemargut/playdate-video-streaming
+-- Companion video engine: https://github.com/jnemargut/unofficial-playdate-video-streaming
 
 StreamAudio = {}
 StreamAudio.debug = false

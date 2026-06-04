@@ -1,6 +1,10 @@
-# Playdate Audio Streaming
+# Unofficial Playdate Audio Streaming
 
 **Real-time MP3 streaming for the [Playdate](https://play.date), in pure C + Lua.**
+
+> ⚠️ **Unofficial / community project.** Not made, endorsed, or supported by Panic. "Playdate" is a
+> trademark of Panic Inc., used here only to describe what this works with. Provided as-is, no
+> warranty — use at your own risk.
 
 The Playdate's `fileplayer` needs an audio file **fully on disk** before it plays. This
 is a small native engine that plays MP3 audio **as it arrives over the network** —
@@ -17,7 +21,7 @@ It was built for the daily-gift app *[Read Watch Listen Play](https://jontomato.
 out here so anyone can use it. **Contributions very welcome** — see [Contributing](#contributing).
 
 > 🎬 **Streaming video too?** There's a companion engine with the same design:
-> **[playdate-video-streaming](https://github.com/jnemargut/playdate-video-streaming)**.
+> **[playdate-video-streaming](https://github.com/jnemargut/unofficial-playdate-video-streaming)**.
 > See [Using both together](#using-both-together) — a `.pdx` may export only one `eventHandler`.
 
 ---
@@ -124,7 +128,7 @@ The native functions (`livestream.startEpisodeC`, `feedC`, `roomC`, `finalizeEpi
 
 ## Using both together
 
-The audio and [video](https://github.com/jnemargut/playdate-video-streaming) engines each
+The audio and [video](https://github.com/jnemargut/unofficial-playdate-video-streaming) engines each
 ship an `eventHandler`, but a `.pdx` may export only **one**. To use both, keep **this**
 engine's handler and add the video engine's two hooks to it — the exact lines are commented
 right where they go, near the bottom of [`src/streamaudio.c`](src/streamaudio.c) (`// + video

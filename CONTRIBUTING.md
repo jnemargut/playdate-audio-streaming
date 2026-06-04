@@ -25,7 +25,7 @@ already a gift.
   `make simulator` for the Simulator). **Test both** — a Simulator-only build and a
   device-only build can pass independently while the packaged `.pdx` is broken.
 - The companion video engine is at
-  https://github.com/jnemargut/playdate-video-streaming — keep the two consistent where it
+  https://github.com/jnemargut/unofficial-playdate-video-streaming — keep the two consistent where it
   makes sense (they share the feed/flow-control pattern).
 
 ## Conduct

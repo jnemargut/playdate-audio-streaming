@@ -1194,7 +1194,7 @@ static int l_bytesText(lua_State* L)
 // ──────────────────────────────────────────────────────────────────────
 
 // Pairing this with the companion VIDEO engine?
-//   https://github.com/jnemargut/playdate-video-streaming
+//   https://github.com/jnemargut/unofficial-playdate-video-streaming
 // A .pdx may export only ONE eventHandler. To run both, keep this one and, at the two
 // spots marked "+ video engine" below, add the video engine's hooks:
 //     extern void streamvideo_setPD(PlaydateAPI* p);                               // declare up here
