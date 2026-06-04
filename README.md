@@ -12,9 +12,9 @@ It does two things:
 - **Live mode** — connect straight to an Icecast/Shoutcast-style server over TCP and play
   a continuous live stream.
 
-It was built for the daily-gift app *Read Watch Listen Play* (and grew out of the live-radio
-app *Pour Over*), then pulled out here so anyone can use it. **Contributions very welcome** —
-see [Contributing](#contributing).
+It was built for the daily-gift app *[Read Watch Listen Play](https://jontomato.itch.io/read-watch-listen-plan)*
+(and grew out of the live-radio app *[Pour Over](https://jontomato.itch.io/pour-over)*), then pulled
+out here so anyone can use it. **Contributions very welcome** — see [Contributing](#contributing).
 
 > 🎬 **Streaming video too?** There's a companion engine with the same design:
 > **[playdate-video-streaming](https://github.com/jnemargut/playdate-video-streaming)**.
@@ -145,6 +145,15 @@ engine: …`). Then **don't** compile the video repo's `streamvideo_entry.c`.
 - **Tested on Playdate hardware + Simulator.** Other content and networks will find edges —
   please report them.
 
+## In the wild
+
+Apps shipping this engine:
+
+- **[Read Watch Listen Play](https://jontomato.itch.io/read-watch-listen-plan)** — a daily four-part gift for Playdate; the Listen pillar streams old-time-radio episodes (episode mode).
+- **[Pour Over](https://jontomato.itch.io/pour-over)** — live internet radio on Playdate; where the live-TCP streaming path comes from.
+
+Using it in your game? Open a PR adding it here.
+
 ## Contributing
 
 This exists so that streaming audio on the Playdate stops being something everyone solves from
@@ -154,6 +163,6 @@ and bug reports with sample streams. See [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
 ## Credits & license
 
-- Built by **[jnemargut](https://github.com/jnemargut)** for *Read Watch Listen Play* / *Pour Over*.
+- Built by **[jnemargut](https://github.com/jnemargut)** for *[Read Watch Listen Play](https://jontomato.itch.io/read-watch-listen-plan)* / *[Pour Over](https://jontomato.itch.io/pour-over)*.
 - MP3 decoding by [minimp3](https://github.com/lieff/minimp3) (CC0 / public domain), vendored in `src/`.
 - **MIT licensed** — see [`LICENSE`](LICENSE). Use it, ship it, sell your game with it; keep the notice.
