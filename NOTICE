@@ -1,0 +1,9 @@
+Playdate Audio Streaming
+Copyright (c) 2026 jnemargut — MIT License (see LICENSE)
+
+This project vendors third-party code:
+
+  minimp3  (src/minimp3.h, src/minimp3_impl.c)
+  by Lieff — released into the public domain (CC0).
+  https://github.com/lieff/minimp3
+  See the license notice at the top of src/minimp3.h.

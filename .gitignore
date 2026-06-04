@@ -1,0 +1,17 @@
+# build output
+*.pdx/
+build/
+Source/
+*.pdz
+*.elf
+*.dylib
+*.bin
+
+# encoder scratch / sample media
+*.rwlpv
+*.mp4
+*.mp3
+__pycache__/
+
+# os
+.DS_Store
